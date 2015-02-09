@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>    Yosemite Panoramas
+</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+	    	        <link rel="stylesheet" href="/theme/css/normalize.css">
+	        <link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	        <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	        <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+	        <link rel="stylesheet" href="/theme/css/font-awesome.min.css">
+	        <link rel="stylesheet" href="/theme/css/main.css">
+
+    <link rel="stylesheet" href="/theme/css/blog.css">
+    <link rel="stylesheet" href="/theme/css/github.css">
+
+    <link href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="/theme/css/jquery-ui.min.css" />
+	<link rel="stylesheet" href="/theme/js/panojs3/styles/panojs.css" />
+        
+        
+        
+	        	<script src="/theme/js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!-- jQuery, jQuery UI, jQuery fullscreen plugin -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+	<script tyoe="text/javascript" src="/theme/js/jquery.fullscreen-min.js"></script>
+
+	<!-- PanoJS -->
+    <script type="text/javascript" src="/theme/js/panojs3/extjs/ext-core.js"></script>    
+    <script type="text/javascript" src="/theme/js/panojs3/panojs/utils.js"></script>    
+    <script type="text/javascript" src="/theme/js/panojs3/panojs/PanoJS.js"></script>
+    <script type="text/javascript" src="/theme/js/panojs3/panojs/controls.js"></script>
+    <script type="text/javascript" src="/theme/js/panojs3/panojs/pyramid_Zoomify.js"></script>
+    <script type="text/javascript" src="/theme/js/panojs3/panojs/control_thumbnail.js"></script>
+    <script type="text/javascript" src="/theme/js/panojs3/panojs/control_info.js"></script>
+    <script type="text/javascript" src="/theme/js/panojs3/panojs/control_svg.js"></script>
+    
+    <!-- This-site-specific scripts -->
+    <script type="text/javascript" src="/theme/js/main.js"></script>
+   	<script type="text/javascript">
+		Ext.onReady(function() {
+			$('.pano_thumb').on('click', showOverlay);
+		});
+    </script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="wrapper">
+<header id="sidebar" class="side-shadow">
+    <hgroup id="site-header">
+        <a id="site-title" href=""><h1><i class="icon-coffee"></i> i-Josh</h1></a>
+        <p id="site-desc"></p>
+    </hgroup>
+    <nav>
+        <ul id="nav-links">
+                <li><a href="/category/family.html">Family</a></li>
+                <li><a href="/category/photography.html">Photography</a></li>
+                <li><a href="/category/projects.html">Projects</a></li>
+                <li><a href="/category/thoughts.html">Thoughts</a></li>
+        </ul>
+    </nav>
+<footer id="site-info">
+    <p>
+        Proudly powered by <a href="http://getpelican.com/">Pelican</a> and <a href="http://python.org/">Python</a>. Theme by<a href="https://github.com/hdra/pelican-cait">hndr</a>.
+    </p>
+    <p>
+        Textures by <a href="http://subtlepatterns.com/">Subtle Pattern</a>. Font Awesome by <a href="http://fortawesome.github.io/Font-Awesome/">Dave Grandy</a>.
+    </p>
+</footer></header>
+    <div id="post-container">
+        <ol id="post-list">
+            <li>
+                <article class="post-entry">
+                    <header class="entry-header">
+                        <time class="post-time" datetime="2015-02-07T09:00:00+01:00" pubdate>
+                            Sat 07 February 2015
+                        </time>
+                        <a href="/yosemite-panoramas.html" rel="bookmark"><h1>Yosemite Panoramas</h1></a>
+                    </header>
+
+                    <section class="post-content">
+    <div id="overlay">
+    	<div id="panoWrapper" style="width: 100%; padding: 20px; opacity: 1;">
+     	<div id="panoContainer" style="width: 100%; position: absolute; top: 0; left: 0;"></div>
+     	<div id="panoHeader"></div>
+     </div>
+    </div>
+	                        <p>We went to Yosemite with Shanin's folks at the end of January and man, is it gorgeous there! We also had some stellar weather,
+with ridiculously blue skies and not a cloud to be seen.</p>
+<p>Of course, with such picturesque scenery, I feel I would be remiss if I didn't take tons of pictures and at least one panoramic one;
+I paid for the software (<a href="">Kolor's AutoPano Pro</a> which, incidentally, works perfectly on Ubuntu and is pretty freaking stellar
+and easy to use), so I might as well put it to use, yes?</p>
+<p>Below, you can find my favorite few. Click on the thumbnail to get a really cool viewer (<a href="">PanoJS</a>, about which I'll write 
+another post) which you can use to zoom in and pan around. Enjoy!</p>
+
+	<p>
+		<img class="pano_thumb"
+			data-pano-info='{"title":"Ahwahnee Lodge","id":"ahwahnee_lodge","width":7947,"height":4017,"panoGroup":"yosemite"}'
+			alt="Ahwahnee Lodge" src="/panorama/yosemite/ahwahnee_lodge/thumb.jpg" />
+	</p>
+	<p>
+		<img class="pano_thumb"
+			data-pano-info='{"title":"Lower Yosemite Falls","id":"lower_yosemite_falls","width":5635,"height":3330,"panoGroup":"yosemite"}'
+			alt="Ahwahnee Lodge" src="/panorama/yosemite/lower_yosemite_falls/thumb.jpg" />
+	</p>
+	<p>
+		<img class="pano_thumb"
+			data-pano-info='{"title":"North Dome and Half Dome","id":"north_dome_and_half_dome","width":11705,"height":4079,"panoGroup":"yosemite"}'
+			alt="Ahwahnee Lodge" src="/panorama/yosemite/north_dome_and_half_dome/thumb.jpg" />
+	</p>
+	<p>
+		<img class="pano_thumb"
+			data-pano-info='{"title":"On the Lower Yosemite Falls Trail, Looking West","id":"on_the_lower_yosemite_falls_trail_looking_west","width":11289,"height":4384,"panoGroup":"yosemite"}'
+			alt="Ahwahnee Lodge" src="/panorama/yosemite/on_the_lower_yosemite_falls_trail_looking_west/thumb.jpg" />
+	</p>
+	<p>
+		<img class="pano_thumb"
+			data-pano-info='{"title":"West to East, Eagle Peak to Half Dome","id":"west_to_east_eagle_peak_to_half_dome","width":18698,"height":4696,"panoGroup":"yosemite"}'
+			alt="Ahwahnee Lodge" src="/panorama/yosemite/west_to_east_eagle_peak_to_half_dome/thumb.jpg" />
+	</p>
+	<p>
+		<img class="pano_thumb"
+			data-pano-info='{"title":"Yosemite Point and Eagle Peak","id":"yosemite_point_and_eagle_peak_2","width":20772,"height":6325,"panoGroup":"yosemite"}'
+			alt="Ahwahnee Lodge" src="/panorama/yosemite/yosemite_point_and_eagle_peak_2/thumb.jpg" />
+	</p>
+                    </section>
+                    <hr/>
+                    <aside class="post-meta">
+                        <p>Category: <a href="/category/photography.html">Photography</a></p>
+                        <p>Tags: <a href="/tag/panorama.html">panorama</a>, <a href="/tag/vacation.html">vacation</a>, </p>
+                    </aside>
+                    <hr/>
+                </article>
+            </li>
+        </ol>
+    </div>
+        </div>
+
+        <script src="/theme/js/main.js"></script>
+    </body>
+</html>
