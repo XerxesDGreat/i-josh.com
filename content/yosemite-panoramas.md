@@ -16,5 +16,5 @@ and easy to use), so I might as well put it to use, yes?
 Below, you can find my favorite few. Click on the thumbnail to get a really cool viewer ([PanoJS][panojs], about which I'll write 
 another post) which you can use to zoom in and pan around. Enjoy!
 
-[kolor]:
-[panojs]:
+[kolor]: http://www.kolor.com/panorama-software-autopano-pro.html
+[panojs]: http://www.dimin.net/software/panojs/

@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Josh Wickham'
 SITENAME = u'i-Josh'
-SITEURL = ''
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -40,8 +40,6 @@ SOCIAL = (
 
 #WRITE_SELECTED = ('output/yosemite-panoramas.html',)
 
-
-
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -56,4 +54,4 @@ CUSTOM_MENUITEMS = (
     ('Thoughts', 'category/thoughts.html'),
 )
 
-STATIC_PATHS = ['panorama']
+STATIC_PATHS = ['panorama', 'images']
