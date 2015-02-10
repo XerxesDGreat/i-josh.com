@@ -60,3 +60,4 @@ target/
 
 # app-specific
 cache/*
+content/images_source/*
