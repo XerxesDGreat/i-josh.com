@@ -60,4 +60,6 @@ target/
 
 # app-specific
 cache/*
-content/images_source/*
+output/*
+.idea/*
+*.pid
