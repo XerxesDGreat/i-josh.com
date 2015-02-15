@@ -15,7 +15,7 @@ DEFAULT_LANG = u'en'
 THEME = 'silk-pajamas'
 
 PLUGIN_PATHS =['plugins']
-PLUGINS = ['panoviewer.panoviewer']
+PLUGINS = ['panoviewer.panoviewer', 'summary.summary']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -38,7 +38,7 @@ SOCIAL = (
     ('steam-square', 'https://steamcommunity.com/id/xerxesdgreat/games/')
 )
 
-#WRITE_SELECTED = ('output/yosemite-panoramas.html',)
+SUMMARY_MAX_LENGTH = 100
 
 DEFAULT_PAGINATION = 10
 

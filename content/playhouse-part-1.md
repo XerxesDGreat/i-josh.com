@@ -9,6 +9,7 @@ After doing a lot of searching, I decided on a plan for the playhouse. It's basi
 Coming home with the lumber for stage 1
 
 ![Loads of lumber]({filename}/images/DSC03156.jpg)
+<!-- PELICAN_END_SUMMARY -->
 
 One side frame clamped up for drilling and bolting with lag bolts
 
