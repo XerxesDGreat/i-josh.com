@@ -11,12 +11,12 @@
         <meta name="viewport" content="width=device-width">
         
         {% block stylesheets %}
-	        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/normalize.css">
+	        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/normalize.css?v={{ CACHEBUST }}">
 	        <link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	        <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	        <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
-	        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.min.css">
-	        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css">
+	        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.min.css?v={{ CACHEBUST }}">
+	        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css?v={{ CACHEBUST }}">
 	    {% endblock stylesheets %}
         
         {% if FEED_ALL_ATOM %}
@@ -42,6 +42,6 @@
         </div>
 
         {% include "ga.html" %}
-        <script src="{{ SITEURL }}/theme/js/main.js"></script>
+        <script src="{{ SITEURL }}/theme/js/main.js?v={{ CACHEBUST }}"></script>
     </body>
 </html>

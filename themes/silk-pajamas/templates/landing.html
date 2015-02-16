@@ -2,7 +2,7 @@
 
 {% block stylesheets %}
     {{ super() }}
-    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/landing.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/landing.css?v={{ CACHEBUST }}">
 {% endblock stylesheets %}
 
 {% block content %}

@@ -14,9 +14,9 @@ function createViewer (panoInfo, baseUrl) {
     var myProvider = new PanoJS.TileUrlProvider('','','');
     myProvider.assembleUrl = function(xIndex, yIndex, zoom) {
         return baseUrl + '/' + panoInfo.id + "/" + myPyramid.tile_filename( zoom, xIndex, yIndex );
-    }    
-    
-    panoViewer = new PanoJS("viewer", {
+    }
+
+    var options = {
         tileUrlProvider : myProvider,
         tileSize        : myPyramid.tilesize,
         maxZoom         : myPyramid.getMaxLevel(),
@@ -25,7 +25,13 @@ function createViewer (panoInfo, baseUrl) {
         staticBaseURL   : '/theme/js/panojs3/',
         blankTile       : '/theme/js/panojs3/images/blank.gif',
         loadingTile     : '/theme/js/panojs3/images/progress.gif'
-    });
+    };
+
+    if (typeof(panoInfo.initialZoom) != 'undefined') {
+        options.initialZoom = panoInfo.initialZoom;
+    }
+    
+    panoViewer = new PanoJS("viewer", options);
 
     Ext.EventManager.addListener( window, 'resize', callback(panoViewer, panoViewer.resize) );
     panoViewer.init();

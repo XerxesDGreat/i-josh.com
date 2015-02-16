@@ -15,7 +15,7 @@ DEFAULT_LANG = u'en'
 THEME = 'silk-pajamas'
 
 PLUGIN_PATHS =['plugins']
-PLUGINS = ['panoviewer.panoviewer', 'summary.summary']
+PLUGINS = ['panoviewer.panoviewer', 'summary.summary', 'cachebuster.cachebuster', 'post.post']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -55,3 +55,5 @@ CUSTOM_MENUITEMS = (
 )
 
 STATIC_PATHS = ['panorama', 'images']
+
+MD_EXTENSIONS = ['attr_list']

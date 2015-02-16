@@ -19,8 +19,10 @@ def add_panoviewer_post(generator):
         with open(pano_data_file) as f:
             try:
                 pano_details = json.loads(f.read())
-            except e:
-                print "exception found: %s" % e
+            except:
+                import sys
+                exc_type, exc_value, exc_traceback = sys.exc_info()
+                print "Exception type [%s] in panorama json while decoding %s found: %s" % (exc_type, pano_group, exc_value)
                 pano_details = None
         
         article.pano_details = pano_details
