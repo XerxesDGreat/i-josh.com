@@ -63,3 +63,7 @@ cache/*
 output/*
 .idea/*
 *.pid
+.ve/*
+
+# damn osx
+.DS_Store
