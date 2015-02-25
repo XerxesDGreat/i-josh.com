@@ -49,8 +49,9 @@ DEFAULT_PAGINATION = 10
 USE_CUSTOM_MENU = True
 CUSTOM_MENUITEMS = (
     ('Family', 'category/family.html'),
-    ('Photography', 'category/photography.html'),
+    ('Photos', 'category/photography.html'),
     ('Projects', 'category/projects.html'),
+    ('Reviews', 'category/reviews.html'),
     ('Thoughts', 'category/thoughts.html'),
 )
 
