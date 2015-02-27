@@ -6,11 +6,15 @@ Tags: Book, Non-fiction, Language
 Summary: To kick off a new feature on i-josh.com - reviews of various pieces of pop culture I consume - I'm reviewing
          the book _Trip of the Tongue_ by Elizabeth Little. Come, see what you should think about it!
          ![Trip of the Tongue cover]({filename}/images/trip_of_the_tongue.jpg)
+         
+TL;DR: Read it if you like Bill Bryson or history or languages.
 
 Since I obviously have amazing opinions and taste, and since most people aren't afforded easy access to them, I
 figured I'd kick off a new feature on i-josh.com: reviews! This is where I consume some piece of pop culture - a book,
 a movie, perhaps a video game, maybe some music - and then I tell you exactly what I think about it. C'mon, you know
-how reviews work. The main difference between all other reviews and my reviews is that I'll be accurate and honest!
+how reviews work. The main difference between all other reviews and my reviews is that I'll be accurate and honest! I'll
+also give you a "TL;DR:" at the top. If you're not internet-abbreviation-savvy, that means "Too Long; Didn't Read" and
+indicates a very brief, often one sentence, summary. Or, you know, you could go academic and call it an "abstract".
 
 ![Trip of the Tongue cover][trip_of_the_tongue]
 
