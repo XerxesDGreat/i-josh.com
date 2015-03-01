@@ -98,11 +98,16 @@ body {
 
 .post-content pre {
   font-size: 13px;
-  background-color: #e6e6e6;
+  background-color: #c6c6c6;
   padding: 10px;
   margin: 10px;
   overflow: auto;
   font-family: "PT Mono", monospace; }
+
+.post-content code {
+  background-color: #c6c6c6;
+  padding: 0px 5px;
+  display: inline-block;}
 
 .post-meta a {
   font-style: italic;

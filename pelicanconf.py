@@ -52,6 +52,7 @@ CUSTOM_MENUITEMS = (
     ('Photos', 'category/photography.html'),
     ('Projects', 'category/projects.html'),
     ('Reviews', 'category/reviews.html'),
+    ('Software', 'category/software.html'),
     ('Thoughts', 'category/thoughts.html'),
 )
 
