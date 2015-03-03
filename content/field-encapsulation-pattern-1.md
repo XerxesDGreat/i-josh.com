@@ -2,7 +2,7 @@ Title: Field encapsulation pattern in Python, part 1: Getters and Setters
 Author: Josh Wickham
 Date: 02/28/2015 09:00
 Category: Software
-Tags: python, getter/setter, pattern
+Tags: python, getter/setter, pattern, encapsulation
 Summary: The first installment in the "Field enscapsulation pattern" series, I describe a project I'm working on and how
          I'm going about writing metadata about attributes/fields that will grant a great deal of control over the values
          of those attributes using a very small amount of code
@@ -149,17 +149,30 @@ there are no such things as protected or private attributes in Python, we can pr
     ...         self._my_uuid = value
     ... 
 
-So, we've changed the attribute name from `my_uuid` to `_my_uuid` (the `_` in Python is generally agreed to mean an internal
-variable and that you should just leave it alone), changed the setter and the getter to share the same name (not strictly
-necessary for the setter), and added `@property` to the getter function and `@my_uuid.setter` to the setter function. Now,
-we still can access the attribute as follows:
+So, let's see what exactly is going to happen here. Assume we have an instance of `MyClass` called `obj`, as we have had
+in the examples. When we do the following:
 
-    >>> obj = MyClass()
+    >>> obj.my_uuid
+
+Python will notice that there is a function with the `@property` decorator named `my_uuid` and call that function instead
+of attempting to access the attribute directly. Therefore, this results in the following:
+
     >>> obj.my_uuid
     UUID('35eeda9a-d91e-4f1d-8938-eaf5e3b891eb')
 
-The interface has not changed, but we're now doing more. On the getter side of things, there's no real change; we're not
-doing anything in that function. But, take a look at what happens when I try to set `my_uuid` to something bad:
+Internally, the value will be retrieved from an internal attribute `_my_uuid`. (Note: this attribute is still available
+outside of the class and can be used just like any other attribute. PLEASE don't give in to the temptation to use it,
+though; you're protecting it for a reason!)
+    
+Now, let's take a look at what happens when we write to that property with a `UUID` object (the same kind of thing will
+happen if you pass a bad value).
+
+    >>> obj.my_uuid = uuid.uuid4()
+
+At this point, Python will recall that, with the `@my_uuid.setter` decorator, we should call that function, passing the
+value you want to assign as an argument to that function. The function, as we already know, will check the type of the
+value and, if it's a `UUID`, it will be written to the internal attribute `_my_uuid` previously referenced. Of course,
+if we write bad data, we'll still get an error:
 
     >>> obj.my_uuid = 'invalid data'
     Traceback (most recent call last):
@@ -170,9 +183,10 @@ doing anything in that function. But, take a look at what happens when I try to 
 So far so good! Going back to our original set of requirements, we're covering #1: Type safety. We can now be sure that
 any time someone fetches `my_uuid`, it's going to be of type `uuid.UUID`.
 
-In the next installment, we'll be adding more attributes to the object and exploring what happens when the attributes
+In the next installment, [which you can find here][part2], we'll be adding more attributes to the object and exploring what happens when the attributes
 have different types. Until then, have fun!
 
 [pickle]: https://docs.python.org/2.7/library/pickle.html
 [python_uuid]: https://docs.python.org/2.7/library/uuid.html
 [wiki_uuid]: http://en.wikipedia.org/wiki/Universally_unique_identifier
+[part2]: {filename}/field-encapsulation-pattern-2.md
