@@ -11,6 +11,7 @@ If you *don't* recall, please take a moment and hit up [part 1][part1] before go
 Where we left off, we were able to protect our attribute by using decorators to create a getter and a setter which will
 protect the field from bad values. Here's what it looked like at the end of part 1:
 
+    :::python
     >>> class MyClass:
     ...     def __init__(self):
     ...         self.my_uuid = uuid.uuid4()
@@ -32,6 +33,7 @@ adding another attribute (if I haven't made it clear, I'll be using "field" and 
 object and it also is supposed to be a uuid (my real-world object has four, so this isn't unreasonable). Using the
 getter/setter decorators, this is what it could look like:
 
+    :::python
     >>> class MyClass:
     ...     def __init__(self):
     ...         self.my_uuid = uuid.uuid4()
@@ -63,6 +65,7 @@ getter/setter decorators, this is what it could look like:
 Not great; we've just about doubled the size of the class! However, we notice there's a lot of code similarities, namely
 checking for the `UUID` type in the setters, which could be generalized. Let's do that now.
 
+    :::python
     >>> class MyClass:
     ...     def __init__(self):
     ...         self.my_uuid = uuid.uuid4()
@@ -99,6 +102,7 @@ to access an attribute which doesn't exist on the object, and `__setattr__`, whi
 attribute is written to. The former receives the attribute name which we're looking for as an argument, while the latter
 takes both the attribute's name and its potential value. Here they are in use:
 
+    :::python
     >>> class MyClass:
     ...     def __init__(self):
     ...         self.my_uuid = uuid.uuid4()
@@ -118,6 +122,7 @@ takes both the attribute's name and its potential value. Here they are in use:
 
 Looking better! As I mentioned, I had four uuid attributes on my object; let's add them:
 
+    :::python
     >>> class MyClass:
     ...     def __init__(self):
     ...         self.my_uuid = uuid.uuid4()
@@ -142,11 +147,13 @@ Wow, only two new lines!
 So, I hate to break it to you; it's not all fun and games. There's a pretty major flaw with this, as cool as
 it seems: what happens if I want a datetime attribute? I'll add it in the `__init__` function:
 
+    :::python
     ...    def __init__(self):
     ...        self.created_datetime = datetime.datetime.utcnow()
 
 And then I'll build a new object to test changing the attribute:
 
+    :::python
     >>> obj = MyClass()
     Traceback (most recent call last):
       File "<stdin>", line 1, in <module>
@@ -160,6 +167,7 @@ assignments, such as during `__init__`. Shucks. So how do we get around this? On
 attribute we're writing to in the `__setattr__` function, doing one thing for the `created_datetime` and another for the
 `uuid` fields. In this case, we'd like to make sure that `created_datetime` is a type of `datetime.datetime`.
 
+    :::python
     >>> import datetime
     >>> class MyClass:
     ...     def __init__(self):
@@ -194,6 +202,7 @@ attribute we're writing to in the `__setattr__` function, doing one thing for th
 Man, looking good! But... well, let's add another date field for when this was updated. We could just add another check
 for the `attr_name`, but that will end up getting unmaintainable really fast. Here's how that would look:
  
+    :::python
     >>>     def __setattr__(self, attr_name, value):
     ...         if attr_name in ['created_datetime', 'updated_datetime']:
     ...             ...
@@ -201,6 +210,7 @@ for the `attr_name`, but that will end up getting unmaintainable really fast. He
 Instead, we can have a map of attributes to their expected types: given the attribute name, we can see what type it's
 expected to be. We can also get rid of the `_assert_*` functions, as we can do that generically also:
 
+    :::python
     >>> class MyClass:
     ...     attribute_types = {
     ...         'my_uuid': uuid.UUID,
@@ -236,6 +246,7 @@ Yay, back down to three functions for six attributes, and it works!
 Okay, time for another wrench in the works! What happens if the attribute is not in the `attribute_types` dict? The way
 we have it written, it can just be applied directly to the object:
 
+    :::python
     >>> obj.petunias = 'are lovely'
     >>> obj.petunias
     'are lovely'
@@ -244,6 +255,7 @@ Obviously not great, but not horrible either. You can use this to your advantage
 typing. For my purposes, we don't want this. Let's alter the `__setattr__` and `__getattr__` calls to deal with this
 appropriately.
 
+    :::python
     >>> class MyClass:
     ...     attribute_types = {
     ...         ...
@@ -280,6 +292,7 @@ over what an amazing, object-oriented class we have! While we're at it, I'd like
 I'm going to use a package in Python called `types`; this gives us some handy shortcuts to some built-in types, such as
 for string or int. Below is the final form of this class in today's installment
 
+    :::python
     >>> from types import *
     >>> class MyClass
     ...     attribute_types = {
@@ -323,8 +336,9 @@ for string or int. Below is the final form of this class in today's installment
 Whew, we came a long way! However, we are now reasonably assured that someone using this class will be matching the
 desired contract: the attributes are well defined, only those attributes will exist on the object, and they will contain
 a very predictable value. Sheesh, not bad for a dynamic language and only about 35 lines of code! So, I think we're done
-with the type safety aspect of this class. With the next installment, we'll start looking at what happens if we start
+with the type safety aspect of this class. [With the next installment][part3], we'll start looking at what happens if we start
 making some fields required and some fields not.
 
 [part1]: {filename}/field-encapsulation-pattern-1.md
 [rafek]: http://www.rafekettler.com/magicmethods.html
+[part3]: {filename}/field-encapsulation-pattern-3.md

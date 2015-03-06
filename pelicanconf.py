@@ -58,4 +58,4 @@ CUSTOM_MENUITEMS = (
 
 STATIC_PATHS = ['panorama', 'images']
 
-MD_EXTENSIONS = ['attr_list']
+MD_EXTENSIONS = ['attr_list', 'codehilite']
