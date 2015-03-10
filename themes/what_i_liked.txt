@@ -1,5 +1,5 @@
 plumage lightbox
-brownstone color scheme
+...brownstone color scheme
 bt3-flat entry page and header detail
 foundation header
 frantic world post header and background

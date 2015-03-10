@@ -21,3 +21,5 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 #DISQUS_SITENAME = ""
 GOOGLE_ANALYTICS = "UA-59670577-1"
+
+PERSONAL_PHOTO = 'http://www.i-josh.com/images/10336807101524288927696705237706410271543060n.jpg'
