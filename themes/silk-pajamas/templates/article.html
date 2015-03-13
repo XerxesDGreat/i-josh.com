@@ -76,6 +76,11 @@
 
     <hr /><!-- divider -->
 
+    <div class="fb-comments"
+         data-href="{{ SITEURL }}/{{ article.url }}"
+         data-width="705" data-numposts="5" data-colorscheme="light">
+    </div>
+
     {% if SITEURL and DISQUS_SITENAME %}
         <div id="comments" class="comments">
             <div id="disqus_thread"></div>

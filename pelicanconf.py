@@ -62,7 +62,7 @@ ABOUT_PERSONAL_INFO = 'I\'m a software engineer who has several joys in life: a 
                 'new, essentially, to craft something I can feel proud of.'
 
 # Photo for About section, shows up on home page
-ABOUT_PERSONAL_PHOTO = 'http://localhost:8000/images/10336807101524288927696705237706410271543060n.jpg'
+ABOUT_PERSONAL_PHOTO = 'home_profile_img_1.jpg'
 
 # List of tuples with work information; used on home page and in side bar
 # Valid work_types are:
