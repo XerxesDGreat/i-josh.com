@@ -256,6 +256,13 @@ div.widget {
     div.widget li.parent_li {
         border: none;
     }
+    ul.tree > li.parent_li > span {
+        font-size: 16px;
+    }
+    ul.tree li.parent_li i.fa {
+        padding-right: 5px;
+    }
+
 
 section#quick-blog img {
     width: 100%;
