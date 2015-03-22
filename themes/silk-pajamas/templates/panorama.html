@@ -2,7 +2,8 @@
 {% extends "article.html" %}
 
 {% block stylesheets %}
-	{{ super() }}
+    {{ super() }}
+    <!-- panorama stylesheets -->
     <link href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/jquery-ui.min.css" />
 	<link rel="stylesheet" href="{{ SITEURL }}/theme/js/panojs3/styles/panojs.css?v={{ CACHEBUST }}" />
@@ -10,9 +11,10 @@
 
 {% block javascripts %}
 	{{ super() }}
+    <!-- panorama javascripts -->
 	<!-- jQuery, jQuery UI, jQuery fullscreen plugin -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
 	<script tyoe="text/javascript" src="{{ SITEURL }}/theme/js/jquery.fullscreen-min.js"></script>
 
 	<!-- PanoJS -->
@@ -35,7 +37,8 @@
 {% endblock javascripts %}
 
 {% block article_content %}
-    <div id="overlay">
+    <!-- PANNNNOOOOOOOO! -->
+    <div id="panoOverlay">
     	<div id="panoWrapper" style="width: 100%; padding: 20px; opacity: 1;">
      	<div id="panoContainer" style="width: 100%; position: absolute; top: 0; left: 0;"></div>
      	<div id="panoHeader"></div>

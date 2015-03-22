@@ -3,7 +3,7 @@
 {% extends "blog_base.html" %}
 
 <!-- BLOG -->
-{%block content_area %}
+{% block content_area %}
     <!-- article title -->
     <header>
         {% if article.link %}
@@ -36,7 +36,9 @@
                 <iframe class="fullwidth" height="166" src="{{article.featured}}"></iframe> 
             {% endif %}
         {% endif %}
+        {% block article_content %}
         {{ article.content }}
+        {% endblock article_content %}
     </article>
 
     {% if article.related_posts %}

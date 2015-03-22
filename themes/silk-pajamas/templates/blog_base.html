@@ -2,7 +2,14 @@
 <!doctype html>
 <html lang="en-US">
     <head>
-        {% include "_includes/header.html" %}
+        {# Yay, stupid Jinja2 doesn't allow named blocks in includes, so I have to do this #}
+        {% block metadata %}
+            {% include "_includes/meta.html" %}
+        {% endblock metadata %}
+
+        {% block stylesheets %}
+            {% include "_includes/stylesheets.html" %}
+        {% endblock stylesheets %}
     </head>
 
     <body>
@@ -137,6 +144,9 @@
         <!-- /BLOG -->
 
         {% include "_includes/footer.html" %}
+        {% block javascripts %}
+            {% include "_includes/javascripts.html" %}
+        {% endblock javascripts %}
 
     </body>
 
