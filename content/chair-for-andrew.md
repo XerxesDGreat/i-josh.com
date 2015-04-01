@@ -3,6 +3,9 @@ Author: Josh Wickham
 Date: 03/21/2015 09:00
 Category: Projects
 Tags: woodworking, furniture
+FBDescription: Working from modified plans, I created an Adirondack-style chair for my brother Andrew. The challenge was
+               in customizing the paint, since that's what actually makes it special; that Green Bay Packers logo was
+               pretty complex!
 
 Since I'm preparing a couple more in-depth posts and will be occupied with other things on Saturday, I'm gonna release
 this post early AND it's gonna be a brief one about something I knocked together a few months ago: a Green Bay Packers

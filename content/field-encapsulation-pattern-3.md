@@ -3,6 +3,9 @@ Author: Josh Wickham
 Date: 03/05/2015 09:00
 Category: Software
 Tags: python, getter/setter, pattern, encapsulation, __setattr__, __getattr__
+FBDescription: This is part 3 of a detailed series on my implementation of a field encapsulation pattern in Python. In
+               this installment, I add properties to my fields, allowing us to mark certain fields as being required or
+               read-only (or both)
 
 Welcome back to creating a field encapsulation pattern in Python! As you may be aware, this is the third installment in the
 series. To catch up, you can read [part 1][part1] and [part 2][part2]; I'll wait. Ready? Let's go!

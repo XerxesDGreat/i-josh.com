@@ -3,6 +3,7 @@ Author: Josh Wickham
 Date: 02/26/2015 09:00
 Tags: review, book, fiction, cyberpunk, sci-fi
 Category: Reviews
+FBDescription: My impressions of the book Neuromancer by William Gibson.
 
 TL;DR: Awesome. Read it.
 

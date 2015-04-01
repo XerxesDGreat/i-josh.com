@@ -3,6 +3,8 @@ Author: Josh Wickham
 Tags: Lego, timelapse, video
 Date: 03/26/2015 09:00
 Category: Projects
+FBDescription: For fun, I decided to make a time lapse of assembling the top floor of The Detective's Office. It turned
+               out pretty well, and I have some more experience to help me with a future project.
 
 In preparation for other ideas, I decided to try out a few things to make a timelapse of me building one of my recent
 LEGO purchases, [set 10246, the Detective's Office][detectives_office]. And here it is! Video first, details later, right?

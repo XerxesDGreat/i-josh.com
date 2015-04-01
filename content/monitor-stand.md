@@ -5,6 +5,9 @@ Author: Josh Wickham
 Tags: woodworking
 Summary: I made a new monitor stand for my desk at work because the need arose, I had the materials, and I had the yen
          to make one! ![monitor stand full view]({filename}/images/dsc03178.jpg)
+FBDescription: I made a new monitor stand for my desk at work because the need arose, I had the materials, and I had the yen
+               to make one!
+FBImageIndex: 0
 
 This isn't news or anything, but apparently [sitting][1] in a [chair all day][2] is [pretty bad][3] for you,
 [even if you exercise][4]. By contrast, using a desk which allows you to [alternate between standing and sitting][5]

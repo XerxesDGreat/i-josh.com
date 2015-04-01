@@ -7,6 +7,9 @@ Template: panorama
 Panogroup: cruise
 Summary: When we went on our Disney Cruise, I took a few panoramic pictures because MOAR PICTURE! I've posted the best
          of them here, for your enjoyment. ![Beautiful sunset]({filename}/panorama/cruise/cruise_sunset_3/thumb.jpg)
+FBDescription: When we went on our Disney Cruise, I took a few panoramic pictures because MOAR PICTURE! I've posted the best
+               of them here, for your enjoyment.
+FBImage: panorama/cruise/cruise_sunset_5/thumb.jpg
 
 I took a number of panoramas while we were on our Disney Cruise because sometimes a normal-sized picture just doesn't
 capture enough. <strike>Due to various technical difficulties and limitations, I've moved them onto a separate static page;
@@ -15,6 +18,4 @@ look!. For a preview, here's thumbnails of the panos:</strike> <strike>**UPDATE*
 during a couple unfortunate computer migrations, so I'm rebuilding them.</strike>
 
 Here we go; I rebuilt the panoramas so they're back up and running; woo!
-
-[preview]: {filename}/panorama/cruise/sunset_3/thumb.jpg
 

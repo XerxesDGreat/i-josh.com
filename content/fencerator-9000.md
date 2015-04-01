@@ -3,6 +3,8 @@ Author: Josh Wickham
 Date: 03/19/2015 09:00
 Category: Projects
 Tags: woodworking, tool-building, jigs
+FBDescription: A little jig I knocked together to help make quick work of the tons of 2x4 cuts I'll be making while
+               continuing to build Cora's playhouse.
 
 Quite some time ago, I started [building a playhouse for Cora][playhouse]. I had to put completing the project on hold
 for a while, but now I'm ramping up to do the next stage. I've got the lumber, the hardware, and some time coming up,

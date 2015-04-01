@@ -7,6 +7,10 @@ Summary: The handle on my old Stanley #5 hand plane broke a while ago, so I glue
          recently and, since I'm going to a hand plane class on Saturday, I decided to make a new handle for it rather
          than repair the old.
          ![New handle with the old one in the background]({filename}/images/dsc_2708.jpg)
+FBDescription: The handle on my old Stanley #5 hand plane broke a while ago, so I glued it back together again. It broke
+               again recently and, since I'm going to a hand plane class on Saturday, I decided to make a new handle for
+               it rather than repair the old.
+         
 
 ### Happy St. Patrick's Day!
 
@@ -48,6 +52,9 @@ And it's soooo smooth and I think it looks great!
 
 Lemme know what you think about my plane handle, St. Patrick's Day, or anything else on your mind down in the comments.
 Until next time, cheers!
+
+### Update
+I mentioned I was going to the planing class; the instructer liked my plane and said I did a good job on the handle!
 
 [shirt]: {filename}/images/st_paddys_day_shirt.jpg
 [handle1]: {filename}/images/dsc_2708.jpg

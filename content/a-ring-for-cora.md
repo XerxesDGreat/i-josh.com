@@ -3,6 +3,8 @@ Date: 02/14/2015 09:00
 Category: Projects
 Author: Josh Wickham
 Tags: Cora, woodworking
+FbDescription: To continue my experience with making wooden rings, I made a ring for Cora out of solid wenge. This was
+               a bit of a challenge considering the size, but I think it turned out great! 
 
 HAPPY VALENTINE'S DAY!
 

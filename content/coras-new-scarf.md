@@ -3,6 +3,8 @@ Date: 2015/02/18 09:00
 Category: Projects
 Author: Josh Wickham
 Tags: knitting, Cora
+FBDescription: I made a nice, soft scarf for Cora in her favorite color. I made a couple mistakes with the pattern, but
+               I don't think Cora likes it any less.
 
 Because there's only so many things I can make for myself, and because I am enjoying knitting on the train (except for
 the nasty knot I get between my left shoulder blade and my spine), I decided to make Cora a scarf.

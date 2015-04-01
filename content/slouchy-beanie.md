@@ -2,7 +2,8 @@ Title: Slouchy Beanie
 Date: 03/13/2015 09:00
 Category: Projects
 Author: Josh Wickham
-Tags: knitting
+Tags: knitting, knitting on the train
+FBDescription: The latest hat that I knitted, this time using a broken rib stitch and a significantly less dense yarn.
 
 The latest in my "Knitting on the Train" series is a slouchy beanie!
  

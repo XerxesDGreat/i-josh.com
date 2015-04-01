@@ -3,6 +3,7 @@ Date: 02/17/2015 09:00
 Category: Thoughts
 Author: Josh Wickham
 Tags: Productivity, Software
+FBDescription: Why I started using Trello and what my impressions are so far.
 
 ### Get productive!
 Over the last few weeks, I've decided to become more productive by doing things rather than not do things. One of the

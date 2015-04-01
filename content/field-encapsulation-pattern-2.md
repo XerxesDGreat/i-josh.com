@@ -3,6 +3,8 @@ Author: Josh Wickham
 Date: 03/03/2015 09:00
 Category: Software
 Tags: python, getter/setter, pattern, encapsulation, __setattr__, __getattr__
+FBDescription: This is part 2 of a detailed series on my implementation of a field encapsulation pattern in Python.
+               In this installment, I introduce __setattr__ and __getattr__ to generalize a bunch of code.
 
 This is part 2 of a detailed series on my implementation of a field encapsulation pattern, continued from [part 1][part1].
 If you recall from the last time, we introduced the idea of getters and setters, properly called "properties" in Python.

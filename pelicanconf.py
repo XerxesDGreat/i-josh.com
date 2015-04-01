@@ -15,7 +15,7 @@ DEFAULT_LANG = u'en'
 THEME = 'silk-pajamas'
 
 PLUGIN_PATHS =['plugins']
-PLUGINS = ['panoviewer.panoviewer', 'summary.summary', 'cachebuster.cachebuster', 'post.post']
+PLUGINS = ['panoviewer.panoviewer', 'summary.summary', 'cachebuster.cachebuster', 'post.post', 'fb_meta']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -89,3 +89,11 @@ MAIN_IMAGES = [
 ]
 
 SHARE_POST_LINKS = False
+
+###############################################################################
+# FACEBOOK SHARING OPTIONS
+FACEBOOK_APP_ID = '155022494569896'
+FACEBOOK_OPENGRAPH_TAGS = True
+FACEBOOK_ENABLE_SHARING = True
+FACEBOOK_ENABLE_COMMENTS = True
+FACEBOOK_ENABLED = FACEBOOK_OPENGRAPH_TAGS or FACEBOOK_ENABLE_COMMENTS or FACEBOOK_ENABLE_COMMENTS

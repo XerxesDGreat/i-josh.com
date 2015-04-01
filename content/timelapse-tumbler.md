@@ -3,6 +3,9 @@ Author: Josh Wickham
 Tags: Lego, timelapse, video
 Date: 03/29/2015 09:00
 Category: Projects
+FBImageIndex: 0
+FBDescription: An epic timelapse of putting together the LEGO Tumbler. I hope you enjoy it as much as I enjoyed putting
+               it together (and by "it", I mean both the video and the Tumbler!)
 
 Okay, so I'm supposed to wait till Tuesday to release this post... but I don't want to wait. I think this is damn cool,
 and I'm gonna share it with you NOW! I made a timelapse of assembling The Tumbler!

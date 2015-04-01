@@ -3,6 +3,7 @@ Date: 2014/07/17 09:00
 Category: Projects
 Author: Josh Wickham
 Tags: LEGO, robot
+FBDescription: The second in a series of videos in which I'm building the LEGO DVD Rip Automation machine.
 
 [![DVD Rip Automation Robot, episode 2](http://img.youtube.com/vi/vC-L88VDpRo/0.jpg)](http://www.youtube.com/watch?v=vC-L88VDpRo)
 

@@ -3,6 +3,9 @@ Author: Josh Wickham
 Date: 03/12/2015 09:00
 Category: Software
 Tags: python, getter/setter, pattern, encapsulation, __setattr__, __getattr__
+FBDescription: This is part 5 of a detailed series on my implementation of a field encapsulation pattern in Python. In
+               this finale, we clean up some of the loose ends, add support for serialization, and make sure all our
+               requirements are met.
 
 We're here! To now, we've come through [part 1][part1], [part 2][part2], [part 3][part3], and [part 4][part4], and now
 we're ready to wrap it up. So, without further ado, the conclusion to the Field encapsulation pattern!

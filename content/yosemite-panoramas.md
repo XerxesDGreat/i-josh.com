@@ -5,6 +5,10 @@ Author: Josh Wickham
 Tags: panorama, vacation
 Template: panorama
 Panogroup: yosemite
+FBDescription: We went to Yosemite with Shanin's folks at the end of January and man, is it gorgeous there! We also had
+               some stellar weather, with ridiculously blue skies and not a cloud to be seen. I took the opportunity in
+               this gorgeous setting, on this gorgeous day, to take a few panoramic photos; check them out!
+FBImage: panorama/yosemite/west_to_east_eagle_peak_to_half_dome/thumb.jpg
 
 We went to Yosemite with Shanin's folks at the end of January and man, is it gorgeous there! We also had some stellar weather,
 with ridiculously blue skies and not a cloud to be seen.

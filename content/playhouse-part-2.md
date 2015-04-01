@@ -3,6 +3,8 @@ Author: Josh Wickham
 Date: 03/24/2015 09:00
 Category: Projects
 Tags: woodworking
+FBDescription: After a long time, I made more progress on Cora's playhouse. This time, I got the frames for three of the
+               walls up
 
 After some time, I finally have started making forward progress on Cora's playhouse again. And I've made quite a bit of
 progress since I introduced the [Fencerator 9000™][fencerator]. Just have a look-see:

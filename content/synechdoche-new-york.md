@@ -3,6 +3,7 @@ Author: Josh Wickham
 Category: Reviews
 Tags: philip seymour hoffman, movies
 Date: 03/28/2015 22:37
+FBDescription: My review and thoughts about the movie Synecdoche, New York.
 
 So, I almost didn't get a post in today because I was trying to hurry a treat for y'all. However, I decided to not rush
 so much and to instead give you a review of one of the movies I watched while I was working on the treat: [Synecdoche,

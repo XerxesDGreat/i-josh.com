@@ -3,6 +3,9 @@ Author: Josh Wickham
 Date: 03/07/2015 09:00
 Category: Software
 Tags: python, getter/setter, pattern, encapsulation, __setattr__, __getattr__
+FBDescription: This is part 4 of a detailed series on my implementation of a field encapsulation pattern in Python. In
+               this installment, we create objects to represent our Fields in order to add even more functionality and
+               customization
 
 Here we are in the fourth portion of our trek to create a field encapsulation pattern in Python! For previous legs of our
 journey, you can try [here][part1], [here][part2], or [here][part3]. Otherwise, let's kick it off!

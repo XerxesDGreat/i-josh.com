@@ -3,6 +3,7 @@ Date: 02/12/2015 09:00
 Category: Family
 Author: Josh Wickham
 Tags: photo, Cora, outing
+FBDescription: Cora and I went on an outing to the Children's Discovery Museum to while away a rainy day
 
 
 What's the best thing to do on a rainy day? Okay, what's the next best thing on a rainy day, besides "stay at home and

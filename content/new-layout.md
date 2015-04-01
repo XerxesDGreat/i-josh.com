@@ -2,6 +2,7 @@ Title: New Site Layout!
 Author: Josh Wickham
 Date: 03/10/2015 09:00
 Category: Thoughts
+FBDescription: Announcing new layout for the site.
 
 Hey all, in lieu of finishing the field encapsulation series, I thought I'd bring you
 this announcement: I made my site prettier! Woo! Please take a look around and tell me what you think!
