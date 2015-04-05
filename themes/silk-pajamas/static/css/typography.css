@@ -228,6 +228,12 @@ section article {
 	section article:last-child {
 		margin-bottom:0;
 	}
+	section article.content ul, section article.content ul li  {
+        list-style: disc;
+    }
+    section article.content ul {
+        padding: 40px;
+	}
 
 pre {
 	margin:20px 0;
@@ -269,7 +275,9 @@ section#quick-blog img {
 }
 
 article.content img {
-    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0px auto;
 }
 
 
