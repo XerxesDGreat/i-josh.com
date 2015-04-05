@@ -2,7 +2,7 @@
 Date: 2014/08/11 09:00
 Category: Projects
 Author: Josh Wickham
-Tags: woodworking
+Tags: woodworking, playhouse
 Summary: I'm building a playhouse for Cora! In this segment, I've brought home the lumber and built the base frame for
          it, making sure that it's nice and solid along the way. ![Loads of lumber]({filename}/images/DSC03156.jpg)
 FBDescription: I'm building a playhouse for Cora! In this segment, I've brought home the lumber and built the base frame for

@@ -44,13 +44,12 @@ help:
 	@echo '   make serve [PORT=8000]           serve site at http://localhost:8000'
 	@echo '   make devserver [PORT=8000]       start/restart develop_server.sh    '
 	@echo '   make stopserver                  stop local server                  '
-	@echo '   make ssh_upload                  upload the web site via SSH        '
-	@echo '   make rsync_upload                upload the web site via rsync+ssh  '
-	@echo '   make dropbox_upload              upload the web site via Dropbox    '
-	@echo '   make ftp_upload                  upload the web site via FTP        '
-	@echo '   make s3_upload                   upload the web site via S3         '
-	@echo '   make cf_upload                   upload the web site via Cloud Files'
-	@echo '   make github                      upload the web site via gh-pages   '
+	@echo '   make rsync_upload	               publish and upload the web site via'
+	@echo '                                    rsync+ssh, excluding panoramas     '
+	@echo '   make rsync_upload_only	       upload the web site via rsync+ssh  '
+	@echo '   make rsync_upload_pano	       upload the website AND panoramas   '
+	@echo '                                    vi rsync+ssh                       '
+	@echo '   make rsync_upload	               upload the web site via rsync+ssh  '
 	@echo '   make resizeimg                   resize source images               '
 	@echo '                                                                       '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html'
@@ -93,8 +92,13 @@ publish:
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-rsync_upload: publish
-	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude --exclude 'stats'
+rsync_upload: publish rsync_upload_only
+
+rsync_upload_only:
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude --exclude 'stats' --exclude 'panorama'
+
+rsync_upload_pano: rsync_upload
+	rsync -e "ssh -p $(SSH_PORT)" -P -rvzc --delete $(OUTPUTDIR)/panorama/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
 
 dropbox_upload: publish
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
@@ -112,4 +116,4 @@ github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
+.PHONY: html help clean regenerate serve devserver publish rsync_upload rsync_upload_only rsync_upload_pano

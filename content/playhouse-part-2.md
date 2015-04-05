@@ -2,7 +2,7 @@ Title: Cora's Playhouse, part 2
 Author: Josh Wickham
 Date: 03/24/2015 09:00
 Category: Projects
-Tags: woodworking
+Tags: woodworking, playhouse
 FBDescription: After a long time, I made more progress on Cora's playhouse. This time, I got the frames for three of the
                walls up
 
