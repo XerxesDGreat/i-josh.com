@@ -117,7 +117,7 @@
                                 {{ templist.append({'year': article.date|string|truncate(4, True, ''),
                                                     'month': article.date|string|truncate(7, True, '')|reverse|truncate(2, True, '')|reverse,
                                                     'title': article.title,
-                                                    'link': article.link,
+                                                    'link': article.url,
                                                     'date': article.locale_date}) }}
                                 {% endfor %}
                             </div>
