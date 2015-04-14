@@ -1,7 +1,7 @@
 <!-- src: blog_base.html -->
 <!doctype html>
 <html lang="en-US">
-    <head>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
         {# Yay, stupid Jinja2 doesn't allow named blocks in includes, so I have to do this #}
         {% block metadata %}
             {% include "_includes/meta.html" %}
@@ -132,6 +132,7 @@
                                             <span><i class="fa fa-minus-square-o"></i>{{month.grouper}}</span>
                                             <ul>
                                                 {% for article in month.list %}
+                                                    <!-- {{ article }} -->
                                                     <li><a href="{{article.link}}"><small>{{article.date[4:2]}}</small>{{article.title}}</a></li>
                                                 {% endfor %}
                                             </ul>

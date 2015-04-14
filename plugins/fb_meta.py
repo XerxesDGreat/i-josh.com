@@ -43,8 +43,8 @@ def _get_image_url(article):
     else:
         images = img_pattern.findall(article.content)
         if len(images) < 1:
-            return
-        if 'fbimageindex' in article.metadata:
+            fb_image = article.settings.get('HEADER_IMG_URL')
+        elif 'fbimageindex' in article.metadata:
             try:
                 fb_image = images[article.metadata['fbimageindex']][1]
             except:

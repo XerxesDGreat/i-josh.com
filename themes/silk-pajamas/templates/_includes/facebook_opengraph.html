@@ -1,11 +1,11 @@
 <!-- The following properties are used for rendering/aggregation of Open Graph stories on Facebook -->
 {% if article.fb_opengraph_tags %}
-<meta property="og:url"                content="{{ SITEURL }}/{{ article.url }}" />
 <meta property="fb:app_id"             content="{{ FACEBOOK_APP_ID }}" />
 <meta property="og:type"               content="article" />
+<meta property="og:url"                content="{{ SITEURL }}/{{ article.url }}" />
 <meta property="og:title"              content="{{ article.fb_opengraph_tags.title }}" />
+<meta property="og:image:url"          content="{{ article.fb_opengraph_tags.image }}" />
 <meta property="og:description"        content="{{ article.fb_opengraph_tags.description }}" />
 <meta property="article:author"        content="787589669" />
-<meta property="og:image"              content="{{ article.fb_opengraph_tags.image }}" />
 <meta property="og:site_name"          content="{{ SITENAME }}" />
 {% endif %}

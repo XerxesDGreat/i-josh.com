@@ -6,6 +6,8 @@ AUTHOR = u'Josh Wickham'
 SITENAME = u'i-Josh'
 SITEURL = 'http://localhost:8000'
 
+HEADER_IMG_URL = SITEURL + '/images/home_profile_img_1.png'
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
