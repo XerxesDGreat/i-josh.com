@@ -98,7 +98,7 @@ rsync_upload_only:
 	rsync -e "ssh -p $(SSH_PORT)" --chmod=+r -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude --exclude 'stats' --exclude 'panorama'
 
 rsync_upload_pano: rsync_upload
-	rsync -e "ssh -p $(SSH_PORT)" --chmod=+r -P -rvzc --delete $(OUTPUTDIR)/panorama/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
+	rsync -e "ssh -p $(SSH_PORT)" --chmod=+r -P -rvzc --delete $(OUTPUTDIR)/panorama/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)/panorama/ --cvs-exclude
 
 dropbox_upload: publish
 	cp -r $(OUTPUTDIR)/* $(DROPBOX_DIR)
