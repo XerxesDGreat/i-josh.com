@@ -81,7 +81,7 @@ ABOUT_PERSONAL_PHOTO = 'home_profile_img_1.jpg'
 # ]
 
 MAIN_IMAGES = [
-    'DSC_2287.jpg',
+    'dsc_2287.jpg',
     '2014_09_20_04_11_27.jpg',
     '2014_09_23_04_16_36.jpg',
     '2014_09_27_09_02_02.jpg',
