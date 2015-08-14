@@ -46,8 +46,9 @@ def _get_image_url(article):
             fb_image = article.settings.get('HEADER_IMG_URL')
         elif 'fbimageindex' in article.metadata:
             try:
-                fb_image = images[article.metadata['fbimageindex']][1]
-            except:
+                fb_image = images[int(article.metadata['fbimageindex'])][1]
+            except Exception as e:
+                print('error encountered getting fbimageindex: %s' % e.message)
                 fb_image = images[0][1]
         else:
             fb_image = images[0][1]
