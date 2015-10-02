@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="django" name="Django">
+      <configuration>
+        <option name="rootFolder" value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican" />
+        <option name="settingsModule" value="settings.py" />
+        <option name="manageScript" value="manage.py" />
+        <option name="environment" value="&lt;map/&gt;" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Django" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/jinja2/testsuite/res/templates" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/jinja2/testsuite/res/templates/foo" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/basic" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/basic/tag" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/basic/pages" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/basic/author" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/basic/category" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/basic/override" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom/tag" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom/pages" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom/author" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom/drafts" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom/category" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom/override" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/tag" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/pages" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/posts/2010/octobre/15/unbelievable" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/posts/2010/octobre/20/oh-yeah" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/posts/2010/décembre/02/this-is-a-super-article" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/posts/2011/avril/20/a-markdown-powered-article" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-1" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-2" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/posts/2011/février/17/article-3" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/posts/2012/février/29/second-article" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/posts/2012/novembre/30/filename_metadata-example" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/author" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/drafts" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/category" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/output/custom_locale/override" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/tests/content" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/themes/simple/templates" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/themes/notmyidea/templates" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/themes/silk-pajamas/static/js/panojs3/docs" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/themes/silk-pajamas/static/js/panojs3/demos" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/themes/silk-pajamas/templates" />
+        <option value="$MODULE_DIR$/.ve/lib/python2.7/site-packages/pelican/themes/silk-pajamas/templates/_includes" />
+      </list>
+    </option>
+  </component>
+</module>
