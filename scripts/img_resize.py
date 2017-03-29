@@ -5,12 +5,15 @@ content_dir = os.path.realpath(os.path.join(os.getcwd(), '..', 'content'))
 src = os.path.join(content_dir, 'images_source')
 dest = os.path.join(content_dir, 'images')
 size = (1000,1000)
+acceptable_extensions = ['.jpg', '.jpeg', '.gif', '.png', '.bmp']
 
 print 'copying files from %s to %s' % (src, dest)
 
 for root, dirs, files in os.walk(src):
     for f in files:
         base, ext = os.path.splitext(os.path.basename(f))
+        if ext.lower() not in acceptable_extensions:
+            continue
         target_f = '.'.join([base.lower(), 'jpg'])
         if os.path.isfile(os.path.join(dest, target_f)):
             print 'file %s exists; chickening out' % f
