@@ -3,7 +3,9 @@ Date: 03/29/2017 09:00
 Category: misc
 Author: Josh Wickham
 FbDescription: i-josh.com is returning! 
-Summary: In the words of Aaliyah and Timbaland, "It's been a long time, I shouldn't have left you without a dope beat to step to".
+FbImageIndex: 0
+
+![guess who's back][guess_whos_back]
 
 I haven't posted an update since December 2015 and that's a long time. It is time to remedy that! Therefore I'm going
 to start posting on a regular basis again, yaaaay!
@@ -13,3 +15,4 @@ posting updates on my projects.
 
 Sounds like fun, right? I'm stoked! Can't wait to get the next post up. See you then!
 
+[guess_whos_back]: {filename}/images/im-back2.jpg
